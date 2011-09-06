@@ -41,7 +41,7 @@ def runlen(n):
 def main():
     longest=0
     basis=0
-    for i in xrange(1, 14):
+    for i in xrange(1, 1000000):
         r=runlen(i)
         if r > longest:
             basis=i
